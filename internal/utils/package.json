@@ -1,0 +1,22 @@
+{
+  "name": "@mal-build/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "r": "node dist/index.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "tsup": "^8.5.0"
+  }
+}

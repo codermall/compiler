@@ -1,0 +1,22 @@
+{
+  "name": "@mal-build/build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@mal-build/utils": "workspace:*",
+    "chalk": "^5.6.0",
+    "consola": "^3.4.2",
+    "glob": "^11.0.3",
+    "tsup": "^8.5.0"
+  }
+}
